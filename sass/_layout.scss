@@ -1,0 +1,23 @@
+
+header {
+	width: 100%;
+	background: $headcolor;
+	font: "BebasNeue";
+}
+
+.wrapper {
+	color: $textbody;
+}
+
+.header-content{
+	width: 80%;
+	max-width: 1141px;
+	margin: 3em auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.container{
+	width: 80%;
+	max-width: 1141px;
+}
