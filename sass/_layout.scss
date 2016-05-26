@@ -7,6 +7,7 @@ header {
 
 .wrapper {
 	color: $textbody;
+	line-height: 175%;
 }
 
 .header-content{
@@ -17,7 +18,34 @@ header {
 	justify-content: space-around;
 }
 
-.container{
+.content{
 	width: 80%;
 	max-width: 1141px;
+	margin: 0 auto;
 }
+
+.img-icons {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.content .col-md-6 {
+	padding: 20px 40px 50px 30px;
+
+}
+
+.timeline{
+	padding-left: 50px;
+}
+
+.pricing{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.title{
+	padding-top: 45px;
+}
+
